@@ -5,11 +5,10 @@ import { BrowserRouter as Router, Route} from 'react-router-dom'
 
 import Launches from './components/Launches';
 import Launch from './components/Launch';
-import './App.css';
 import logo from './logo.png';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql'
+  uri: '/graphql'
 });
 
 function App() {
